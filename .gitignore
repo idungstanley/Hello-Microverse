@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+test.md
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -140,7 +141,7 @@ _TeamCity*
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
-test.md
+
 
 # NCrunch
 _NCrunch_*
