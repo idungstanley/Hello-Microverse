@@ -1,6 +1,6 @@
-# Project Name
+# Hello Microverse
 
-> One paragraph statement about the project.
+> I create my first microverse project, using HTML, CSS, Linters.
 > Description the project.
 ![screenshot](./app_screenshot.png)
 
@@ -8,42 +8,58 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML and CSS
+- Technologies: Git and GitHub
 
-## Live Demo
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 To get a local copy up and running follow these simple example steps.
 ### Prerequisites
+* VS Code - A studio code editor
+* Node Package Manage: For installing and managing packages used in the project
+* GitHub - For storing our codes and managing the git repo
+
+
 ### Setup
+* Create a Repo 
+  * Go to github and create a repo
+  * Copy the ssh code to clone
+* Open the Commandline
+  * Navigate To the right directory
+  * Run ```Git Clone git@github.com:idungstanley/Hello-Microverse.git```
+  * Run ```code .``` to open your VScode Editor
+* Create the Github\workflows Folder
+  * Create a Linters.yml file and configure
+
 ### Install
-### Usage
+
+* install the first linter Webhint
+  * Run ```npm install --save-dev hint@6.x```
+
+* install Stylelint linter
+  * Run ```npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x```
+
+* install ESLint linter
+  * Run ```npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x```
+
 ### Run tests
-### Deployment
+
+* run Webhint linter
+    * Run ```npx hint```. on the root of your directory of your project.
+
+* Run Stylelint linter
+  * Run ```npx stylelint "**/*.{css,scss}"``` on the root of your directory of your project.
+
+* Run ESLint linter
+  * Run ```npx eslint```. on the root of your directory of your project.
+
 ## Authors
 👤 **Author1**
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-👤 **Author2**
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
-## Show your support
-Give a ⭐️ if you like this project!
-## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- GitHub: [@githubhandle](https://github.com/idungstanley)
+- Twitter: [@twitterhandle](https://twitter.com/IdungStanley)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sundaystanley56)
+
 ## 📝 License
-This project is [MIT](./MIT.md) licensed.
+This project is [test](./test.md) licensed.
