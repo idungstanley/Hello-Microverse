@@ -62,4 +62,4 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sundaystanley56)
 
 ## 📝 License
-This project is [test](./test.md) licensed.
+This project is [MIT](./license) licensed.
